@@ -1,0 +1,514 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  width: 100%;
+  background-color: #605d63;
+}
+
+div#base {
+  margin: 0px auto;
+  height: 100%;
+  width: 1353px;
+  margin-top: -15px;
+}
+
+header {
+  position: relative;
+}
+
+header p#grad {
+  font-size: 150px;
+  width: 910px;
+  position: absolute;
+  top: 210px;
+  margin: 0px;
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0.07),
+    rgba(255, 255, 255, 0.01)
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+header menu ul {
+  list-style-type: none;
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 247px;
+}
+
+header menu li {
+  display: inline-flex;
+}
+
+header li a {
+  font-style: normal;
+  font-weight: 100;
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+  margin: 0px 30px;
+}
+
+a#label {
+  position: absolute;
+  top: 25px;
+  left: 131px;
+}
+
+a#phone {
+  position: absolute;
+  top: 37px;
+  right: 129px;
+}
+
+a#mail {
+  position: absolute;
+  top: 35px;
+  right: 64px;
+}
+
+div#book {
+  position: absolute;
+  top: 300px;
+  right: 792px;
+  bottom: 364px;
+  left: 120px;
+  text-align: center;
+}
+
+div#book h1 {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  text-align: center;
+  font-weight: 300;
+  font-size: 75px;
+  margin-left: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+div#book h3 {
+  text-align: center;
+  font-weight: 100;
+  font-size: 30px;
+  margin-left: 4px;
+  margin-top: -10px;
+  margin-bottom: 50px;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+div#book a {
+  font-weight: 300;
+  display: block;
+  text-decoration: none;
+  color: white;
+  border: 0.4px solid rgba(255, 255, 255, 0.6);
+  border-radius: 15px;
+  font-size: 25px;
+  line-height: 70px;
+  background-color: #4f647f;
+}
+
+main {
+  padding-top: 170px;
+}
+
+div#info {
+  position: relative;
+  margin-left: 120px;
+  width: 551px;
+  padding-bottom: 35px;
+}
+
+div#info h2 {
+  font-size: 55px;
+  text-align: left;
+  font-weight: 300;
+}
+
+div#info h3 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 39px;
+  text-align: left;
+}
+
+div#info p {
+  font-size: 17px;
+  line-height: 22.1px;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+div#info img {
+  height: 650px;
+  width: 950px;
+  transform: scale(-1, 1);
+  position: absolute;
+  top: -150px;
+  left: 480px;
+}
+
+hr {
+  margin-left: 140px;
+  transform: scaleY(0.5);
+  margin: 25px auto;
+}
+
+div#char {
+  margin-left: 120px;
+  margin-bottom: 40px;
+}
+
+div#char ul {
+  display: flex;
+  list-style-type: none;
+}
+
+div#char li {
+  display: inline-flex;
+  text-align: left;
+  margin: 0px 85px 0px 0px;
+  width: 155px;
+}
+
+div#char ul#params p {
+  margin-top: 41px;
+  font-size: 22px;
+  line-height: 28.6px;
+  text-align: left;
+}
+div#char ul#params li {
+  font-size: 64px;
+  line-height: 83.1px;
+}
+
+div#char ul#text li {
+  font-size: 22px;
+  line-height: 28.6px;
+  color: rgba(255, 255, 255, 0.733);
+  font-weight: 100;
+}
+
+div#video {
+  position: relative;
+}
+
+div#video h2 {
+  font-size: 55px;
+  text-align: center;
+  font-weight: 300;
+  margin: 100px auto 45px;
+}
+
+div#video img#back {
+  opacity: 0.7;
+  z-index: 0;
+}
+
+div#video img#play {
+  z-index: 1;
+  position: absolute;
+  top: 500px;
+  left: 650px;
+}
+
+div#deal h2 {
+  font-size: 55px;
+  font-weight: 300;
+  margin: 40px 0px 10px 120px;
+}
+
+div#deal div#search {
+  background-color: rgba(255, 255, 255, 0.5);
+  line-height: 85px;
+  margin: 40px 0px;
+}
+
+div#deal input {
+  font-family: "Montserrat", sans-serif;
+  padding-left: 5px;
+  margin-left: 120px;
+  width: 230px;
+  margin-right: 20px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid grey;
+}
+
+div#deal select {
+  font-family: "Montserrat", sans-serif;
+  width: 230px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.01);
+  border-bottom: 1px solid grey;
+}
+
+div#testdrive,
+div#choose {
+  text-align: center;
+}
+
+div#testdrive h2 {
+  font-size: 55px;
+  font-weight: 300;
+  margin: 120px auto 20px;
+}
+
+div#testdrive input {
+  font-size: 17px;
+  color: white;
+  padding-top: 21.5px;
+  padding-bottom: 21.5px;
+  padding-left: 28px;
+  width: 692px;
+  border: 1px solid rgba(255, 255, 255, 0);
+  border-radius: 15px;
+  background-color: rgba(178, 211, 254, 0.3);
+  margin: 15px auto;
+}
+
+div#testdrive input::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/*div#choose {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 55px auto 0px;
+  display: block;
+  width: 720px;
+  line-height: 85px;
+  border: 0.5px solid #b2d3fe80;
+  border-radius: 10px;
+}
+
+div#choose input {
+  border-style: inset;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 3px;
+  width: 180px;
+  background-color: #605d63;
+  color: white;
+}
+
+label#date {
+  border-left: 0.5px solid #b2d3fe80;
+  padding: 34px 15px 34px 10px;
+} */
+
+div#choose2 {
+  color: rgba(255, 255, 255, 0.6);
+  margin: 55px auto 0px;
+  width: 720px;
+  height: 80px;
+  text-align: center;
+  display: flex;
+}
+
+table {
+  border: 0.5px solid #b2d3fe80;
+  border-radius: 10px;
+  width: 720px;
+  height: 80px;
+}
+
+td#choosedeal {
+  border-right: 0.5px solid #b2d3fe80;
+}
+
+div#choose2 a img {
+  opacity: 0.5;
+}
+
+div#choose2 a {
+  float: left;
+  margin-left: 90px;
+  display: block;
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+div#choose2 p {
+  float: right;
+  width: 150px;
+  margin-left: 10px;
+}
+
+a#choose {
+  color: white;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4), -2px -2px 10px rgba(0, 0, 0, 0.4);
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  width: 415px;
+  line-height: 80px;
+  display: block;
+  border: 0.4px solid rgba(255, 255, 255, 0.308);
+  border-radius: 15px;
+  margin: 60px auto 210px;
+  letter-spacing: 1px;
+  background: linear-gradient(
+    to right,
+    #4f647f 0px,
+    #4f647f 230px,
+    #eb9987 410px
+  );
+}
+
+div#question {
+  position: relative;
+}
+
+div#question h2 {
+  font-size: 55px;
+  font-weight: 300;
+  margin-left: 120px;
+  margin-bottom: 60px;
+}
+
+img#question {
+  z-index: 0;
+  height: 900px;
+  width: 1353px;
+  opacity: 0.7;
+  display: block;
+}
+
+div#question div#answer {
+  z-index: 1;
+  position: absolute;
+  top: 280px;
+  left: 120px;
+  font-size: 18px;
+}
+
+div#answer p {
+  padding: 8px 20px;
+  background-color: #4f647f;
+  color: white;
+  border-radius: 15px;
+  width: 420px;
+  opacity: 0.8;
+  cursor: pointer;
+  margin-bottom: 15px;
+}
+
+div#feedback {
+  position: relative;
+  margin-bottom: 700px;
+}
+
+div#feedback h2 {
+  font-size: 55px;
+  font-weight: 300;
+  margin: 200px 0px 60px 120px;
+}
+
+div#feedback div {
+  background-color: rgba(44, 74, 97, 0.6);
+  padding: 30px;
+  text-align: justify;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 25px;
+  width: 300px;
+  height: 410px;
+  float: left;
+  opacity: 0.8;
+}
+
+div#feedback div h4 {
+  font-size: 25px;
+  font-weight: 300;
+  margin: 0px;
+}
+
+div#feedback div p {
+  font-size: 15px;
+  line-height: 30px;
+  text-align: left;
+  font-weight: 100;
+  margin: 0px;
+}
+
+div#feedback div#left,
+div#feedback div#right {
+  z-index: 0;
+  margin: 0px 155px;
+}
+
+div#feedback div#center {
+  background-color: #265474;
+  z-index: 2;
+  position: absolute;
+  top: 150px;
+  left: 495px;
+  opacity: 0.8;
+}
+
+div#feedback img#rate {
+  margin: 0px;
+  width: 90px;
+  height: 40px;
+}
+
+div#feedback img#avatar {
+  margin-left: 75px;
+  margin-top: 45px;
+  height: 140px;
+  width: 140px;
+}
+
+footer ul {
+  list-style-type: none;
+}
+
+footer ul li {
+  float: left;
+}
+
+footer ul#sect {
+  display: flex;
+  width: 1000px;
+  margin: 10px auto;
+  padding-left: 0px;
+}
+
+footer ul#sect li {
+  justify-content: space-between;
+  margin: auto;
+  display: flex;
+}
+
+footer ul#sect li a img {
+  margin: auto;
+  margin-bottom: 10px;
+}
+
+footer ul#sect a {
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  text-align: center;
+  font-weight: 100;
+}
+
+footer ul#social {
+  display: flex;
+  width: 1000px;
+  margin-left: 590px;
+  padding-left: 0px;
+}
+
+footer ul#social li {
+  margin: auto 5px;
+}
+
+footer p#copyright {
+  color: #979797;
+  font-size: 12px;
+  margin-left: 120px;
+}
